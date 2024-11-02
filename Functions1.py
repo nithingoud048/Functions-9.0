@@ -14,4 +14,25 @@
 # Write a function count_character(s, char) that counts the occurrences of a character char in a string s.
 # Example: count_character("banana", "a") should return 3.
 
+def add(a, b):
+    return a + b
 
+# Example usage
+result = add(3, 5)
+print(result)  # Output: 8
+
+def is_even(n):
+    return n % 2 == 0
+
+print(is_even(4))  # Output: True
+print(is_even(7))  # Output: False
+
+def string_length(s):
+    return len(s)
+
+print(string_length("hello"))  # Output: 5
+
+def count_character(s, char):
+    return s.count(char)
+
+print(count_character("banana", "a"))  # Output: 3
